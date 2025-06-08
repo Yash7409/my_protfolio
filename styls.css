@@ -1,0 +1,109 @@
+/* Custom styles */
+
+.nav-link {
+    @apply text-gray-600 dark: text-gray-300 hover: text-blue-600 dark: hover: text-blue-400 transition-colors duration-300;
+}
+
+.nav-link.active {
+    @apply text-blue-600 dark: text-blue-400;
+}
+
+.about-image img {
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.skill-item {
+    @apply mb-6;
+}
+
+.skill-item h3 {
+    @apply text-lg font-semibold mb-2;
+}
+
+
+/* Project cards */
+
+.project-card {
+    @apply bg-white dark: bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover: shadow-xl transition-all duration-300;
+}
+
+.project-card img {
+    @apply w-full h-48 object-cover;
+}
+
+.project-card-content {
+    @apply p-6;
+}
+
+.project-card-title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.project-card-description {
+    @apply text-gray-600 dark: text-gray-300 mb-4;
+}
+
+.project-card-links {
+    @apply flex space-x-4;
+}
+
+.project-card-link {
+    @apply px-4 py-2 rounded bg-blue-600 text-white hover: bg-blue-700 transition-colors duration-300;
+}
+
+
+/* Form styles */
+
+input:focus,
+textarea:focus {
+    @apply ring-2 ring-blue-500 ring-offset-2;
+}
+
+
+/* GSAP animations */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+
+/* Dark mode overrides */
+
+.dark .nav-link {
+    @apply text-gray-300;
+}
+
+.dark .nav-link.active {
+    @apply text-blue-400;
+}
+
+.dark .nav-link:hover {
+    @apply text-blue-400;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .about-content {
+        @apply text-center;
+    }
+    .about-image {
+        @apply mx-auto;
+    }
+}
