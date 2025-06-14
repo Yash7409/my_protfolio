@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your. gyash6759@gmail.com
 
-Project Link: [https://github.com/yourusername/portfolio][([ https://github.com/Yash7409/my_protfolio )]
+Project Link: [https://github.com/yourusername/portfolio][([( https://yashbardhan-portfoli.netlify.app/ ))]
 
 ## 🙏 Acknowledgments
 
