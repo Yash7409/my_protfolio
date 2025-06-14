@@ -50,7 +50,7 @@
      # Using Python (if installed)
      python -m http.server 8000
      ```
-     Then visit `http://localhost:8000`
+     Then visit `https://yashbardhan-pportfolio.netlify.app/`
 
 ## 🎨 Customization
 
